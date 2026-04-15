@@ -1,0 +1,78 @@
+* {
+    font-family: monospace;
+    padding:0;
+    margin:0;
+    vertical-align:baseline;
+    list-style:none;
+    border:0
+}
+
+body{
+    background-color: rgb(240, 240, 240);
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    background: linear-gradient(135deg, #6867679c, #1f1f1f8c);
+    padding: 15px;
+}
+
+h1{
+    font-size: 50px;
+    font-weight: bold;
+}
+
+hr{
+    border-width: 1px;
+    border-style: solid;
+}
+
+main{
+    background: linear-gradient(135deg, #6768685d, #1f1f1f41);
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-width: 2px;
+    border-style: solid;
+    margin-left: 40%;
+    margin-right: 40%;
+    border-radius: 10px;
+    gap: 15px;
+    margin-top: 5%;
+    padding: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+}
+
+input{
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+button{
+    padding: 5px;
+    background-color: white;
+    border-radius: 5px;
+}
+
+#formularios{
+    background: linear-gradient(135deg, #6768685d, #1f1f1f41);
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-width: 2px;
+    border-style: solid;
+    margin-left: 40%;
+    margin-right: 40%;
+    border-radius: 10px;
+    gap: 15px;
+    margin-top: 5%;
+    padding: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+}

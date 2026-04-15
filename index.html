@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fintech</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <img src="" alt="">
+        <h1>Fintech</h1>
+        <nav></nav>
+    </header>
+    <hr />
+
+    <main>
+        <label for="nome">Nome:
+            <input type="text" id="nome" maxlength="30" placeholder="Digite seu nome">
+        </label>
+
+        <label for="email">E-mail:
+            <input type="email" id="email" placeholder="Digite seu E-mail">
+        </label>
+        
+
+        <label for="cpf">CPF:
+            <input type="text" id="cpf" placeholder="Digite seu CPF">
+        </label>
+        
+
+        <label for="nascimento">Nascimento:
+            <input type="date" id="nascimento" placeholder="Digite sua Data de Nascimento">
+        </label>
+        
+
+        <label for="senha">Senha: 
+            <input type="password" id="senha" placeholder="Digite sua senha">
+        </label>
+        <div>
+            <button id="cadastrar" onclick="validarFormulario()">Cadastrar</button>
+            <button id="criar" onclick="criarlistaUsuarios()">Criar</button>
+            <button id="limpar" onclick="limparlistaUsuarios()">Limpar</button>
+        </div>
+        <div id="msg">
+    </main>
+
+    <div id="formularios">
+
+    </div>
+
+    <script src="validador.js"></script>
+</body>
+</html>
